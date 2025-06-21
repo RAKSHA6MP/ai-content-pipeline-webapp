@@ -1,11 +1,46 @@
-# ai-content-pipeline-webapp
-A Flask-based AI-powered web application for rewriting, reviewing, storing, and searching text content using Google Gemini and vector embeddings.
-This project is a smart content processing pipeline that streamlines the rewriting, reviewing, and versioning of book chapters using Google Gemini AI and a Human-in-the-Loop (HITL) mechanism. It combines AI writing assistance, vector-based semantic search, and a simple Flask-based web interface to support human feedback and traceability in automated text generation workflows.
+# 📚 Automated Book Publication Workflow
 
-The project is designed to be part of an automated book publication workflow, particularly useful for:
+An AI-powered system that automates the end-to-end content pipeline for book publication — from web scraping and rewriting to review, feedback, and version management.
 
-Editors rewriting older literary content into modern English
+## 🚀 Overview
 
-Writers seeking AI-assisted drafts with human review
+This project demonstrates a complete workflow combining AI and human-in-the-loop processes to streamline book content publication. It includes:
 
-Systems that require traceable, searchable, and editable AI-generated text
+- 🔎 **Web Scraping** using Playwright  
+- ✍️ **AI-Powered Rewriting** via Gemini Pro / GPT  
+- 👁️ **Human Review & Feedback Integration**  
+- 🗃 **Content Versioning** with ChromaDB  
+- 🧠 **Agent Communication** and RL-enhanced Search  
+
+---
+
+## 📌 Features
+
+- ✅ Extracts book chapters and captures screenshots
+- ✅ Sends content to LLM for rewriting
+- ✅ Enables review cycles with feedback comparison
+- ✅ Stores and retrieves content versions efficiently
+- ✅ Enhances search with reinforcement-learning tuning
+
+---
+
+## 🧰 Tech Stack
+
+| Tool/Tech        | Purpose                          |
+|------------------|----------------------------------|
+| **Python**       | Core logic                       |
+| **Playwright**   | Web scraping & screenshots       |
+| **Gemini Pro** / **GPT** | AI text generation           |
+| **ChromaDB**     | Vector storage & versioning      |
+| **LangChain**    | LLM orchestration & agents       |
+| **RL Algorithm** | Search optimization (rewarding better rewrites) |
+
+---
+
+## 🔧 How to Run
+
+1. **Clone this repository**
+```bash
+git clone https://github.com/yourusername/automated-book-workflow.git
+cd automated-book-workflow
+

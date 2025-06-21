@@ -1,0 +1,7 @@
+# .gitignore
+__pycache__/
+.env
+outputs/
+inputs/
+embeddings_store/
+*.pyc

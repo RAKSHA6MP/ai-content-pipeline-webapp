@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Search Results</title></head>
+<body>
+  <h2>Search AI Outputs</h2>
+  <form method="POST">
+    <input name="query" placeholder="Enter search query">
+    <button type="submit">Search</button>
+  </form>
+  {% if results %}
+    <h3>Results for "{{ query }}":</h3>
+    {% for file, score, preview in results %}
+      <p><strong>{{ file }}</strong> — Score: {{ score }}<br>{{ preview }}...</p><hr>
+    {% endfor %}
+  {% endif %}
+</body>
+</html>

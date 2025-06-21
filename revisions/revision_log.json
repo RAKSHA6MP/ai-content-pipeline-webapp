@@ -1,0 +1,14 @@
+[
+  {
+    "version": 1,
+    "ai_writer": "Gemini (via ai_writer.py)",
+    "human_feedback": "Looks good",
+    "action_taken": "Accepted"
+  },
+  {
+    "version": 1,
+    "ai_writer": "Gemini (via ai_writer.py)",
+    "human_feedback": "Looks good",
+    "action_taken": "Accepted"
+  }
+]
